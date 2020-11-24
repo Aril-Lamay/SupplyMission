@@ -1,6 +1,8 @@
+//create the box class
 class Box{
     constructor(x,y,width,height){
         var options = {
+            //set it to stay at a place
             isStatic : true
         }
         this.body = Bodies.rectangle(x,y,width,height,options);
